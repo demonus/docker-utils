@@ -10,8 +10,8 @@ Command line:
 run-local-task.py [--profile AWS_CREDENTIALS_PROFILE] [--container CONTAINER_DEFINITION_NAME] TASK_DEFINITION_NAME
 ```
 
-**--profile**  name of the AWS credentials profile from _~/.aws/credentials_ file. If not set, default profile will be used. More about profile configuration here: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files
+**--profile**  name of the AWS credentials profile from _~/.aws/credentials_ file. If not set, default profile will be used. More about the profile configuration can be found here: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files
 
-**--container** the tool will pickup first container in the Task Definition. If Task Definition has more than one container defined, container name should be specified.
+**--container** the tool will pickup first container in the Task Definition. If a Task Definition has more than one container defined, container name should be specified.
 
-**TASK_DEFINITION_NAME** can be either name or _ARN_. If revision number is not provided, latest active revision will be used.
+**TASK_DEFINITION_NAME** can be either a name or an _ARN_. If the revision number is not provided, latest active revision will be used.
